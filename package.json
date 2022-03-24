@@ -1,0 +1,14 @@
+{
+  "name": "romannums",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "roman": "node-sass sass/style.scss css/style.css -w"
+  },
+  "author": "ocran",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
