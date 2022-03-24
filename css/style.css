@@ -68,6 +68,11 @@ body {
         font-size: 2rem; } }
 
 @media (max-width: 600px) {
+  body {
+    display: flex;
+    justify-content: none;
+    align-items: none;
+    height: 100%; }
   .main {
     width: 65%; }
     .main form {
