@@ -21,12 +21,12 @@
 // on screen size maxWidth of 600px
 
 @media (max-width: 600px) {
-  // body {
-  //   display: flex;
-  //   justify-content: none;
-  //   align-items: none;
-  //   height: 100%;
-  // }
+  body {
+    display: flex;
+    justify-content: none;
+    align-items: none;
+    height: 100%;
+  }
 
   .main {
     width: 65%;
