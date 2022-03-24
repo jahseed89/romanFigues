@@ -34,7 +34,7 @@ body {
       border-radius: 4px;
       box-sizing: border-box;
       text-align: center;
-      padding: 0.2rem 0; }
+      padding: 0.4rem 0; }
   .main h1 {
     display: flex;
     align-items: flex-start;
@@ -45,6 +45,9 @@ body {
     color: #fff;
     border: none;
     border-radius: 4px; }
+    .main button:hover {
+      cursor: pointer;
+      background-color: #344767df; }
 
 @media (max-width: 900px) {
   .main {
@@ -65,7 +68,7 @@ body {
     align-items: none;
     height: 100%; }
   .main {
-    width: 50%; }
+    width: 65%; }
     .main form {
       font-size: 1.1rem;
       height: fit-content; }
@@ -76,6 +79,6 @@ body {
         display: block;
         font-size: 1.1rem; }
     .main input[type="number"] {
-      width: 80%; }
+      width: 90%; }
     .main #btn {
       margin: 1rem 0; } }

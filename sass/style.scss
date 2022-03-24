@@ -48,7 +48,7 @@ body {
       border-radius: 4px;
       box-sizing: border-box;
       text-align: center;
-      padding: 0.2rem 0;
+      padding: 0.4rem 0;
     }
   }
 
@@ -64,6 +64,11 @@ body {
     color: #fff;
     border: none;
     border-radius: 4px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #344767df;
+    }
   }
 }
 @import "media";
