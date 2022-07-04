@@ -40,9 +40,8 @@ body {
       margin: 3.5rem 0;
       display: flex;
       justify-content: center;
-      border: none;
     }
-  
+
     label {
       display: flex;
       justify-content: center;
@@ -79,4 +78,4 @@ body {
     }
   }
 }
-// sass styling page
+@import "media";
