@@ -22,10 +22,8 @@
 
 @media (max-width: 600px) {
   body {
-    display: flex;
     justify-content: none;
     align-items: none;
-    height: 100%;
   }
 
   .main {
@@ -35,14 +33,9 @@
       font-size: 1.5rem;
       height: fit-content;
 
-      .display-val {
-        font-size: 1rem;
-        margin: 2rem 0;
-      }
-
       h1 {
         display: block;
-        font-size: 1.1rem;
+        font-size: 1rem;
       }
     }
 
