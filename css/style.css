@@ -30,7 +30,8 @@ body {
       font-size: 2rem;
       margin: 3.5rem 0;
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      border: 1px solid red; }
     .main form label {
       display: flex;
       justify-content: center;
