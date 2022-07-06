@@ -39,13 +39,13 @@ class NumeralConverter {
   function userNum() {
       let btnClick = document.getElementById('btn');
   
-      btnClick.onclick = function(e) {
+      btnClick.onclick = e =>{
         e.preventDefault();
-          let numberInput = document.getElementById('num').value
-          let currnetVal = parseInt(numberInput)
-          let displayType = document.querySelector('.display-val')
-          displayType.textContent = convertToRoman(currnetVal)
-      };
+        let numberInput = document.getElementById('num').value
+        let currnetVal = parseInt(numberInput)
+        let displayType = document.querySelector('.display-val')
+        displayType.textContent = convertToRoman(currnetVal)
+      }
    }
    userNum();
   
